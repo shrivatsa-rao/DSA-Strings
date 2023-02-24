@@ -16,7 +16,7 @@ using namespace std;
 string reverse(string s)
 {
     string temp="";
-    vector<string>ans;
+    vector<string>ans;// vector of string always stores list of strings ans[0]="hari",ans[1]="ram",ans[2]="anu" like this.
     for(int i=0;i<s.size();i++)
     {
         if(s[i]==' ' && temp!="")
