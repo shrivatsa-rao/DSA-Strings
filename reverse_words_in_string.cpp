@@ -21,7 +21,7 @@ string reverse(string s)
     {
         if(s[i]==' ' && temp!="")
         {
-            ans.push_back(temp);
+            ans.push_back(temp);//ans[0]="hello" and ans[1]="shrivatsa".
             temp="";
         }
         else
