@@ -33,15 +33,15 @@ string reverse(string s)
     
     if(temp!="")
     {
-        ans.push_back(temp);
+        ans.push_back(temp);// remember this this is for last string from the string.
     }
     
     string val="";
-    for(int i=ans.size()-1;i>=0;i--)
-    {
+    for(int i=ans.size()-1;i>=0;i--)//here size of ans will be 2 becuase when you have vector of strings it will be ans[0]="hello",ans[1]="shrivatsa" so vector stores
+    {                             //in this way hence we have size of ans will be 2.
         val=val+ans[i];
         if(i){
-            val=val+' ';
+            val=val+' ';// this gives space after each string but when "i" is zero then it comes out of the loop
         }
     }
     
